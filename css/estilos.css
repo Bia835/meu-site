@@ -119,4 +119,11 @@ main figure img{
     width: 400px;
     height: 400px;
     border-radius: 200px;
+    margin: bottom 6%;
+    border: 10px solid #00ff00;
+    transition: 0.2s ease-in-out;
+    cursor: pointer
+}
+main figure img:hover{
+    box-shadow: 0px 0px 8px #00ff00;
 }
