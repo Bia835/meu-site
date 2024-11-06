@@ -85,7 +85,7 @@ main .techs .cards-container{
     align-items: center;
 }
 /*cards*/
-main .techs .cards-container{
+main .techs .cards-container .cards{
     width: 120px;
     height: 120px;
     padding: 10px;
