@@ -41,24 +41,24 @@ header nav{
 }
 header nav a{
     font-size: 2em;
-    margin-right: 1.3em;
     padding: 10px;
+    margin-right: 1.3em;
 }
 header nav a:nth-child(4){
     margin-right: 0;
 }
-header h1:hover, a{
+header h1,a{
     color: #fff;
 }
 header h1:hover, a:hover{
     color: #00e0ff;
 }
-/*Main content*/
+/*Main*/
 main{
     padding: 5%;
     display: flex;
-    align-items:center;
     justify-content: space-between;
+    align-items:center;
 }
 /*Main-content*/
 main .main-contenet{
@@ -66,15 +66,15 @@ main .main-contenet{
     flex-direction: column;
 }
 main .main-contenet h2{
-    margin-bottom: 2%;
     font-size: 2.2em;
+    margin-bottom: 2%;
 }
-main .main-contenet{
+main .main-contenet.text{
     margin-bottom: 10%;
 }
 main .main-contenet .text p{
     width: 75%;
-    font-size: 1,2em;
+    font-size: 1.2em;
     font-weight: 300 ;
     line-height: 1.6em;
     padding: 0 5%;
